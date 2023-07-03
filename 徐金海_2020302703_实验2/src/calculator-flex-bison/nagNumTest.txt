@@ -1,0 +1,19 @@
+//初始化3个类型的测试数据
+integertest = 3;
+doubletest = 3.14;
+scidoubletest = 5e3;
+
+//检查测试值是否与初始化的一致
+integertest
+doubletest
+scidoubletest
+
+//求负运算
+integertest  -integertest;
+doubletest = -doubletest;
+scidoubletest = -scidoubletest;
+
+//求负结果
+integertest
+doubletest
+scidoubletest

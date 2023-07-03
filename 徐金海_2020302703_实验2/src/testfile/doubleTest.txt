@@ -1,0 +1,28 @@
+double1 = 3.14;
+double2 = -1.23;
+double3 = -5.34;
+double4 = 2.56;
+
+//初始值检查
+double1
+double2
+double3
+double4
+
+//理论值依次为1.910000,-4.370000,-3.862200,-0.391720
+double1 + double2
+double2 - double1
+double1 * double2
+double2 / double1
+
+//理论值依次为-2.780000,7.900000,-13.670400,-0.4794001
+double3 + double4
+double4 - double3
+double3 * double4
+double4 / double3
+
+//理论值依次为9.708200,10.199400,3.370337,-0.357678
+double1 + double2 * double3
+(double1 + double2) * double3
+double1 + double2 / double3
+(double1 + double2) / double3

@@ -1,0 +1,3 @@
+D:/Compiler/test1/9/CMakeFiles/test.dir
+D:/Compiler/test1/9/CMakeFiles/edit_cache.dir
+D:/Compiler/test1/9/CMakeFiles/rebuild_cache.dir

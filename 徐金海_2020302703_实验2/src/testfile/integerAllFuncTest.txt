@@ -1,0 +1,21 @@
+//定义4个初始测试值
+integer1 = 123;
+integer2 = 456;
+integer3 = 45;
+integer4 = 9;
+
+//加减乘除测试
+//理论值依次为:168,447,0,405
+integer1 + integer3
+integer2 - integer4
+integer1 / integer2
+integer3 * integer4
+
+//取模运算以及含括号的表达式的计算
+//理论值依次为:123,0,20643,26055,133,12
+integer1 % integer2
+integer3 % integer4
+integer1 + integer2 * integer3
+(integer1 + integer2) * integer3
+integer1 + integer2 / integer3
+(integer1 + integer2) / integer3

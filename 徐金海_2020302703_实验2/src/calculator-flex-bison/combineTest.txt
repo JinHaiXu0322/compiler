@@ -1,0 +1,13 @@
+//初始化一些测试数据
+int1 = 2;
+int2 = 7;
+double1 = 2.0;
+double2 = 7.0;
+·
+//混合计算测试,理论值依次为3，14，3.500000，3.500000，14.000000，14.000000
+int2 / int1
+int1 * int2
+double2 / double1
+double1 * double2
+double2 /int1
+int1 * double2

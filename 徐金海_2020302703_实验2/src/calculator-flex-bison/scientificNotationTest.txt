@@ -1,0 +1,30 @@
+//定义4个初始测试值
+scidouble1 = 2e-4;
+scidouble2 = 3e+3;
+scidouble3 = 2.1e-3;
+scidouble4 = 6.3e3;
+
+//初始值检查
+scidouble1
+scidouble2
+scidouble3
+scidouble4
+
+//理论值依次为3000.000200,-2999.999800,0.600000,15000000.000000
+scidouble1 + scidouble2
+scidouble2 - scidouble1
+scidouble1 * scidouble2
+scidouble2 / scidouble1
+
+//理论值依次为6300.002100,6299.997900,13.230000,3000000.000000
+scidouble3 + scidouble4
+scidouble4 - scidouble3
+scidouble3 * scidouble4
+scidouble4 / scidouble3
+
+//理论值依次为6.300200,6.300000,1428571.428771,1428571.523810
+scidouble1 + scidouble2 * scidouble3
+(scidouble1 + scidouble2) * scidouble3
+scidouble1 + scidouble2 / scidouble3
+(scidouble1 + scidouble2) / scidouble3
+
